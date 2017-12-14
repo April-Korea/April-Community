@@ -36,8 +36,8 @@ export default {
   #top .content .title img { flex-basis: 30px; height: 30px; margin: 8px; }
   #top .content .title span { flex: 1; }
   #top .content .menu { flex: 1; }
-  #top .content .menu > ul { list-style-type: none; display: flex; justify-content: flex-end; padding: 0; margin: 0; }
-  #top .content .menu > ul > li { padding: 0 10px; cursor: pointer; font-weight: 600; }
+  #top .content .menu > ul { list-style-type: none; display: flex; justify-content: flex-start; padding: 0 100px; margin: 0; }
+  #top .content .menu > ul > li { padding: 0 20px; cursor: pointer; font-weight: 600; }
   #top .content .menu > ul > li.active a { border-bottom: 2px solid #FFF; }
   #top .content .gab { flex-basis: 30px; text-align: center; }
   #top .content .mypage { flex-basis: 120px; font-weight: 600; }
