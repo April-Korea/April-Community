@@ -12,6 +12,7 @@ export default {
 
 <style>
 body { margin: 0; padding: 0; background-color: #FFF; }
+a { text-decoration: none; color: inherit; }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
