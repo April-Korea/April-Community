@@ -1,5 +1,5 @@
 <template>
-  <div id="main-view">
+  <div id="home-view">
     <Login />
   </div>
 </template>
@@ -7,7 +7,7 @@
 <script>
 import Login from '@/components/Login';
 export default {
-  name: 'main-view',
+  name: 'home-view',
   data() {
     return {}
   },
@@ -18,5 +18,5 @@ export default {
 </script>
 
 <style scoped>
-  #main-view { position: relative; width: 1080px; margin: 0 auto; }
+  #home-view { position: relative; width: 1080px; margin: 0 auto; }
 </style>

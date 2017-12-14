@@ -24,7 +24,6 @@ input { width: 100%; height: 32px; height: 32px; padding: 0 5px; font-size: .8em
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 </style>

@@ -24,10 +24,10 @@ export default {
 </script>
 
 <style scoped>
-  #login { position: absolute; top: 10px; right: 0; width: 300px; padding: 10px 10px 5px 10px; border: 1px solid #E1E1E1; background-color: #FFF; z-index: 100; }
+  #login { position: absolute; top: 10px; right: 5px; width: 300px; padding: 10px 10px 5px 10px; border: 1px solid #E1E1E1; background-color: #FFF; z-index: 100; }
   #login .form { display: flex; }
   #login .form .input-group { flex: 1; }
-  #login .form button { flex-basis: 100px; margin-left: 3px; border: none; background-color: #282C34; color: #FFF; font-size: .8em; }
+  #login .form button { flex-basis: 100px; margin-left: 3px; border: none; background-color: #282C34; color: #FFF; font-size: .8em; cursor: pointer; }
 
   #login .login-etc { text-align: left; }
   #login .login-etc a { float: right; height: 30px; line-height: 30px; font-size: .8em; }

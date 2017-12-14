@@ -1,7 +1,7 @@
 {
-  "name": "april-community",
+  "name": "April-Korea Community",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "April 커뮤니티에 속한 분들의 지식공유 사이트 입니다.",
   "author": "Genn <yoon110@webchemist.net>",
   "private": true,
   "scripts": {
