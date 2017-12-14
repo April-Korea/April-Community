@@ -1,6 +1,9 @@
 <template>
   <div id="top">
-    <div class="title">{{ title }}</div>
+    <div class="title">
+      <img src="../../static/april-korea.png" alt="">
+      <span>{{ title }}</span>
+    </div>
     <div class="menu">
       <ul>
         <li>Main</li>
@@ -27,7 +30,9 @@ export default {
 
 <style scoped>
   #top { position: fixed; display: flex; top: 0; left: 0; width: 100%; min-width: 1080px; height: 60px; line-height: 60px; background-color: #21252B; color: #FFF; }
-  #top .title { flex-basis: 300px; font-size: 1.4em; font-weight: 600; }
+  #top .title { display: flex; padding: 0 20px; font-size: 1.4em; font-weight: 600; }
+  #top .title img { flex-basis: 44px; height: 44px; margin: 8px; }
+  #top .title span { flex: 1; }
   #top .menu { flex: 1; }
   #top .menu > ul { list-style-type: none; display: flex; padding: 0; margin: 0; }
   #top .menu > ul > li { padding: 0 10px; cursor: pointer; }
