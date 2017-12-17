@@ -2,7 +2,7 @@
   <div id="login">
     <div class="form">
       <div class="input-group">
-      <input type="email" v-model="id" placeholder="email">
+      <input type="email" v-model="email" placeholder="email">
       <input type="password" v-model="passwd" placeholder="password">
     </div>
     <button @click="login">sign in</button>
@@ -14,19 +14,19 @@
     </div>
 
     <div class="social">
-      <button class="facebook">
+      <button class="facebook" @click="socialLogin('facebook')">
         <div class="icon">
           <icon name="facebook"></icon>
         </div>
         <span>Facebook</span>
       </button>
-      <button class="google">
+      <button class="google" @click="socialLogin('google')">
         <div class="icon">
           <icon name="google-plus"></icon>
         </div>
         <span>Google</span>
       </button>
-      <button class="kakao">
+      <button class="kakao" @click="socialLogin('kakao')">
         <div class="icon">
           <span class="icon"></span>
         </div>
@@ -50,12 +50,12 @@ export default {
   computed: {
     ...mapState({
       isLogin: state => state.Auth.isLogin,
-      id: state => state.Auth.id,
+      email: state => state.Auth.email,
       passwd: state => state.Auth.passwd
     })
   },
   methods: mapActions([
-    'login'
+    'login', 'socialLogin'
   ]),
 }
 </script>
