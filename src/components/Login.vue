@@ -69,8 +69,10 @@ export default {
   #login .login-etc { display: flex; width: 100%; height: 30px; text-align: left; justify-content: space-between; }
   #login .login-etc a { height: 30px; line-height: 30px; padding: 0 5px; font-size: .8em; }
 
-  #login .social { margin-top: 10px; }
-  #login .social button { position: relative; width: 110px; height: 32px; line-height: 32px; margin: 3px 0; padding: 0 0 0 32px; border: none; background-color: transparent; font-size: .85em; font-weight: 500; box-sizing: border-box; cursor: pointer; }
+  #login .social { display: flex; margin-top: 10px; }
+  #login .social button { position: relative; flex: 1; height: 32px; line-height: 32px; margin: 3px 2px; padding: 0 0 0 32px; border: none; background-color: transparent; font-size: .85em; font-weight: 500; box-sizing: border-box; cursor: pointer; }
+  #login .social button:first-child { margin-left: 0; }
+  #login .social button:last-child { margin-right: 0; }
   #login .social button span { display: block; width: 100%; height: 100%; text-align: center; }
   #login .social button div.icon { position: absolute; top: 0; left: 0; width: 32px; height: 32px; }
 
