@@ -11,7 +11,11 @@
   },
   "dependencies": {
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-awesome": "^2.3.4",
+    "vue-helmet": "^1.1.5",
+    "vue-meta": "^1.4.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
