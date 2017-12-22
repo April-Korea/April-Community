@@ -12,6 +12,7 @@
   "dependencies": {
     "vue": "^2.5.2",
     "vue-awesome": "^2.3.4",
+    "vue-ga": "^1.0.0",
     "vue-helmet": "^1.1.5",
     "vue-meta": "^1.4.0",
     "vue-router": "^3.0.1",

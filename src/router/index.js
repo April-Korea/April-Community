@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Ga from 'vue-ga'
 import Meta from 'vue-meta'
 import Home from '@/views/Home'
 import About from '@/views/About'
@@ -9,7 +10,7 @@ import Project from '@/views/Project'
 Vue.use(Router)
 Vue.use(Meta)
 
-export default new Router({
+const Routes =  new Router({
   routes: [
     {
       path: '/home',
@@ -34,3 +35,7 @@ export default new Router({
     { path: '*', redirect: '/home' }
   ]
 })
+
+Ga(Routes, `UA-111523583-1`)
+
+export default Routes

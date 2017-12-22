@@ -4910,6 +4910,10 @@ vue-awesome@^2.3.4:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-awesome/-/vue-awesome-2.3.4.tgz#a8b06a21dd95a5787e108561be89e216fd9a78e6"
 
+vue-ga@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/vue-ga/-/vue-ga-1.0.0.tgz#c890fc529970af10abef2c42c81ea38cfb00cef1"
+
 vue-helmet@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/vue-helmet/-/vue-helmet-1.1.5.tgz#ff66bfd2de38eb0df0e1a98157a2d1996035462d"
