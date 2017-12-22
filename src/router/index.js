@@ -36,6 +36,6 @@ const Routes =  new Router({
   ]
 })
 
-Ga(Routes, `UA-111523583-1`)
+// Ga(Routes, `UA-111523583-1`)
 
 export default Routes
