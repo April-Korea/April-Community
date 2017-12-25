@@ -6,6 +6,8 @@ import Home from '@/views/Home'
 import About from '@/views/About'
 import News from '@/views/News'
 import Project from '@/views/Project'
+import Best from '@/views/Best'
+import Mypage from '@/views/Mypage'
 
 Vue.use(Router)
 Vue.use(Meta)
@@ -31,6 +33,16 @@ const Routes =  new Router({
       path: '/project',
       name: 'Project',
       component: Project
+    },
+    {
+      path: '/best',
+      name: 'Best',
+      component: Best
+    },
+    {
+      path: '/mypage',
+      name: 'Mypage',
+      component: Mypage
     },
     { path: '*', redirect: '/home' }
   ]

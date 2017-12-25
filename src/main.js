@@ -3,6 +3,10 @@ import App from './App'
 import router from './router'
 import store from './store'
 
+import 'highlight.js/styles/androidstudio.css';
+import Highlight from 'vue-markdown-highlight'
+Vue.use(Highlight)
+
 
 Vue.config.productionTip = false
 

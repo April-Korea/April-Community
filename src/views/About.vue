@@ -1,5 +1,5 @@
 <template>
-  <div id="about">
+  <div id="about-view">
     AboutView
   </div>
 </template>
@@ -19,5 +19,5 @@ export default {
 </script>
 
 <style>
-
+  #about-view { position: relative; display: flex; flex-wrap: wrap; width: 1080px; margin: 0 auto; padding: 10px; box-sizing: border-box; }
 </style>

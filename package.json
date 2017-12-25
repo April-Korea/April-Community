@@ -10,10 +10,16 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.17.1",
+    "echarts": "^3.8.5",
+    "highlight.js": "^9.12.0",
     "vue": "^2.5.2",
     "vue-awesome": "^2.3.4",
+    "vue-echarts-v3": "^1.0.18",
     "vue-ga": "^1.0.0",
     "vue-helmet": "^1.1.5",
+    "vue-markdown": "^2.2.4",
+    "vue-markdown-highlight": "^1.0.5",
     "vue-meta": "^1.4.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"

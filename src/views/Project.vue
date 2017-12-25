@@ -1,5 +1,5 @@
 <template>
-  <div id="project">
+  <div id="project-view">
     ProjectView
   </div>
 </template>
@@ -17,5 +17,5 @@ export default {
 </script>
 
 <style>
-
+  #project-view { position: relative; display: flex; flex-wrap: wrap; width: 1080px; margin: 0 auto; padding: 10px; box-sizing: border-box; }
 </style>

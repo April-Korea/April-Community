@@ -2,8 +2,8 @@
   <div id="login">
     <div class="form">
       <div class="input-group">
-      <input type="email" v-model="email" placeholder="email">
-      <input type="password" v-model="passwd" placeholder="password">
+      <input type="email" name="email" :value="email" @input="change" placeholder="email">
+      <input type="password" name="passwd" :value="passwd" @input="change" placeholder="password">
     </div>
     <button @click="login">sign in</button>
     </div>
@@ -37,26 +37,20 @@
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
+import { mapGetters, mapActions } from 'vuex'
 import Icon from 'vue-awesome'
 export default {
   name: 'login',
   data() {
-    return{ }
-  },
-  components: {
-    Icon
+    return {}
   },
   computed: {
-    ...mapState({
-      isLogin: state => state.Auth.isLogin,
-      email: state => state.Auth.email,
-      passwd: state => state.Auth.passwd
-    })
+    ...mapGetters(['email', 'passwd', 'isLogin'])
   },
-  methods: mapActions([
-    'login', 'socialLogin'
-  ]),
+  methods: mapActions(['login', 'socialLogin', 'change']),
+  components: {
+    Icon
+  }
 }
 </script>
 

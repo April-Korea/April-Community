@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
+import { mapState, mapActions, mapGetters } from 'vuex'
 import Best from '@/components/Best'
 import Login from '@/components/Login'
 import Analysis from '@/components/Analysis'
@@ -30,7 +30,7 @@ export default {
   },
   computed: {
     ...mapState({
-      isLogin: state => state.Auth.isLogin
+
     })
   },
   methods: mapActions([
